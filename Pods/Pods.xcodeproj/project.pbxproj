@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0861BEBF85279294801F41971AD871CE /* Pods-AdvancedNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0903A477232200D518B216F019E5E4E /* Pods-AdvancedNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0938D64ED72018A418CC2394F92A4032 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8436533CEC029288113A22556AA9D09 /* MapKit.framework */; };
+		0C5348EC1C02628D1787BE97B1EDFF61 /* DYOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516499DFF39715BDA58D606AC4D61BE5 /* DYOperation.swift */; };
+		2E1DB75EA2B121F0D31262EE45A062FA /* DYOperationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1EA54CC53A3E1B1342570A925DCC74 /* DYOperationKit-dummy.m */; };
+		33F451B39F4BD7519D7234F805970926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		355367A5F5D89A8A9E2186010DB146A4 /* Pods-AdvancedNotificationsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F92193350A8A17248488FA8905AC75 /* Pods-AdvancedNotificationsTests-dummy.m */; };
+		4C50350D068418F31B7B1529C6BEF064 /* Pods-AdvancedNotificationsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 508BF04C8259EC45249FE5059E826E53 /* Pods-AdvancedNotificationsUITests-dummy.m */; };
+		4F04DA618EE3B480B43C942861F1DC63 /* SaveImageCacheRessource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB7C9A7A0C86C0A6BDD22553CD9F93 /* SaveImageCacheRessource.swift */; };
+		4F49559A0E8DE3BFAC3CA5E0E44EF892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		513ED1D15F7F544D194EE1B5C88566DE /* DYGroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D09F212922C000590F476C5FED022E /* DYGroupOperation.swift */; };
+		5392E4AEEDBDE4966CF7A764AC1C1505 /* Pods-AdvancedNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95815B014216E837DA0C7CF34F6E02D7 /* Pods-AdvancedNotifications-dummy.m */; };
+		847C4D6D4A0664558287B92D9FEA44FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		860929EC32E2831822B81260B06FBA41 /* DownloadImageRessourceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34565CEC7F4E47FB5CBD6D5CB56DEA7C /* DownloadImageRessourceOperation.swift */; };
+		88C30D6DE2C2E8EE3C192175205EB9C5 /* DYOperationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6961E67A9910329C15166B135C0335E2 /* DYOperationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D248FA23F5B83187F08E9F3419F698A /* Pods-AdvancedNotificationsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F89C73838CF9450805B86BB5362D12C /* Pods-AdvancedNotificationsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B85FC56C02D55C450F856C4139409E85 /* Pods-AdvancedNotificationsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A62F3D04089176FC66D445CAA8D18BAD /* Pods-AdvancedNotificationsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA8BE3137555145D2DD3BAB2B47417D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		CFB7008143ADC4E6FA292DD82F499A09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */; };
+		D08284F2E56521334E499EDBAA623FB5 /* ImageCacheRessourceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C10C76D69BBB717A1217F82DAC8D1 /* ImageCacheRessourceOperation.swift */; };
+		D67FF4308B7962A040DF950101490A72 /* DownloadURLRessourceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78A7A0B06749C9EBDB97463C13857A /* DownloadURLRessourceOperation.swift */; };
+		E8CAE7BCA8F5D14F25D11652C8EA2B1F /* DYOperationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E19467A642579F25386B17E7B39B7 /* DYOperationResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C2FA6BA016CB2D85CBBAD58235B65EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73316268412B7C2B2AB9F20F6E728FE8;
+			remoteInfo = DYOperationKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009758896F188F80080A71B4AF08FBA5 /* DYOperationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYOperationKit.xcconfig; sourceTree = "<group>"; };
+		01E8282E853F115F29F4527B3128042D /* Pods-AdvancedNotifications-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdvancedNotifications-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02ED262F48FA5D8F90AA43BAA53E92B8 /* Pods-AdvancedNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdvancedNotifications.modulemap"; sourceTree = "<group>"; };
+		045C10C76D69BBB717A1217F82DAC8D1 /* ImageCacheRessourceOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCacheRessourceOperation.swift; path = DYOperationKit/Classes/ImageCacheRessourceOperation.swift; sourceTree = "<group>"; };
+		0F89C73838CF9450805B86BB5362D12C /* Pods-AdvancedNotificationsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdvancedNotificationsUITests-umbrella.h"; sourceTree = "<group>"; };
+		1804B9C08C21009D5FA11ECB8FBB36C4 /* Pods_AdvancedNotificationsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdvancedNotificationsTests.framework; path = "Pods-AdvancedNotificationsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BA42BAA3E17813AC47FF2372845537 /* Pods-AdvancedNotificationsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdvancedNotificationsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2671086E36C44045A52B05353D37E3D7 /* Pods-AdvancedNotificationsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdvancedNotificationsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		269E19467A642579F25386B17E7B39B7 /* DYOperationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DYOperationResponse.swift; path = DYOperationKit/Classes/DYOperationResponse.swift; sourceTree = "<group>"; };
+		2EAE1736438BD2A1CE1557D3C57ED631 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321BD92087F194C1F184E8EF3B6FEE52 /* Pods_AdvancedNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdvancedNotifications.framework; path = "Pods-AdvancedNotifications.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34565CEC7F4E47FB5CBD6D5CB56DEA7C /* DownloadImageRessourceOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadImageRessourceOperation.swift; path = DYOperationKit/Classes/DownloadImageRessourceOperation.swift; sourceTree = "<group>"; };
+		36DF597A19B917DFF4B5F893BC75C961 /* Pods-AdvancedNotificationsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdvancedNotificationsUITests-resources.sh"; sourceTree = "<group>"; };
+		3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A9E810634704363F65F7664665C8436 /* DYOperationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYOperationKit-prefix.pch"; sourceTree = "<group>"; };
+		508BF04C8259EC45249FE5059E826E53 /* Pods-AdvancedNotificationsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdvancedNotificationsUITests-dummy.m"; sourceTree = "<group>"; };
+		516499DFF39715BDA58D606AC4D61BE5 /* DYOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DYOperation.swift; path = DYOperationKit/Classes/DYOperation.swift; sourceTree = "<group>"; };
+		58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		68E52E923AE27FFFDD443BB0D3A8D4AC /* Pods-AdvancedNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdvancedNotifications.debug.xcconfig"; sourceTree = "<group>"; };
+		6961E67A9910329C15166B135C0335E2 /* DYOperationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYOperationKit-umbrella.h"; sourceTree = "<group>"; };
+		6A77C6A1948F25956A9972ABBBF554A6 /* Pods-AdvancedNotifications-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdvancedNotifications-resources.sh"; sourceTree = "<group>"; };
+		6C57F52222FEBA756D3354A40308B10A /* Pods-AdvancedNotificationsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdvancedNotificationsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		838EECE36ED6B08207B122BD821036D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E78B222F8A098F021E3F818DFA52B1 /* Pods-AdvancedNotificationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdvancedNotificationsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87FCC7D4D99CC86E96AE832DD50E57EC /* Pods-AdvancedNotificationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdvancedNotificationsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EECCFF01F22025C2C950F26383653DB /* Pods-AdvancedNotifications-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdvancedNotifications-acknowledgements.plist"; sourceTree = "<group>"; };
+		91C6F2828E81CC64E3A45F1FE451A2AD /* Pods-AdvancedNotificationsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdvancedNotificationsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		934B110D551875001BC47C74EC6E102B /* Pods-AdvancedNotificationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdvancedNotificationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95815B014216E837DA0C7CF34F6E02D7 /* Pods-AdvancedNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdvancedNotifications-dummy.m"; sourceTree = "<group>"; };
+		98C2AD0E977F0F7E98BA6327EEFBC2D4 /* Pods_AdvancedNotificationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdvancedNotificationsUITests.framework; path = "Pods-AdvancedNotificationsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8898EC00DA5380A95253F7B7224235 /* DYOperationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DYOperationKit.framework; path = DYOperationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62F3D04089176FC66D445CAA8D18BAD /* Pods-AdvancedNotificationsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdvancedNotificationsTests-umbrella.h"; sourceTree = "<group>"; };
+		A8F92193350A8A17248488FA8905AC75 /* Pods-AdvancedNotificationsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdvancedNotificationsTests-dummy.m"; sourceTree = "<group>"; };
+		B8436533CEC029288113A22556AA9D09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		B8714D5BD39DB464370F2065D1677D04 /* Pods-AdvancedNotificationsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdvancedNotificationsUITests.modulemap"; sourceTree = "<group>"; };
+		BD78A7A0B06749C9EBDB97463C13857A /* DownloadURLRessourceOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadURLRessourceOperation.swift; path = DYOperationKit/Classes/DownloadURLRessourceOperation.swift; sourceTree = "<group>"; };
+		BE7B5FCD337A852168545B079FCFDA86 /* Pods-AdvancedNotificationsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdvancedNotificationsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA1EA54CC53A3E1B1342570A925DCC74 /* DYOperationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYOperationKit-dummy.m"; sourceTree = "<group>"; };
+		CA648DDF8D559309F21D28BE7AE5CE2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9DB701F9E63F4BB7FDCD12C5E3D649 /* Pods-AdvancedNotificationsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdvancedNotificationsTests-frameworks.sh"; sourceTree = "<group>"; };
+		CBCB93254CC584DC00E6B0A05A4F976D /* Pods-AdvancedNotificationsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdvancedNotificationsTests-resources.sh"; sourceTree = "<group>"; };
+		CCCB7C9A7A0C86C0A6BDD22553CD9F93 /* SaveImageCacheRessource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SaveImageCacheRessource.swift; path = DYOperationKit/Classes/SaveImageCacheRessource.swift; sourceTree = "<group>"; };
+		CFF0F0401206B06D9C00608769D2423A /* DYOperationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DYOperationKit.modulemap; sourceTree = "<group>"; };
+		D0903A477232200D518B216F019E5E4E /* Pods-AdvancedNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdvancedNotifications-umbrella.h"; sourceTree = "<group>"; };
+		D4C575F385BC2E0B10981F5EFC0B0BE3 /* Pods-AdvancedNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdvancedNotifications.release.xcconfig"; sourceTree = "<group>"; };
+		D8D424CE946559090670C8C2992A7FD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDC94B4704392418AFA887D8522CFF9 /* Pods-AdvancedNotificationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdvancedNotificationsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5D09F212922C000590F476C5FED022E /* DYGroupOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DYGroupOperation.swift; path = DYOperationKit/Classes/DYGroupOperation.swift; sourceTree = "<group>"; };
+		F73839661DAF3A63FF0B46FB63E8C6B1 /* Pods-AdvancedNotifications-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdvancedNotifications-frameworks.sh"; sourceTree = "<group>"; };
+		FDB44664C80509CBE49C66A55CB2F687 /* Pods-AdvancedNotificationsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdvancedNotificationsTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C7310683E6A82B815EEC38729B291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F49559A0E8DE3BFAC3CA5E0E44EF892 /* Foundation.framework in Frameworks */,
+				0938D64ED72018A418CC2394F92A4032 /* MapKit.framework in Frameworks */,
+				CFB7008143ADC4E6FA292DD82F499A09 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7AA44B52C4365972A2ED37EABF332A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847C4D6D4A0664558287B92D9FEA44FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09140743B0C3EA75FBAEB65E31A1B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F451B39F4BD7519D7234F805970926 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3EBD1B1F328B9C78C59B9257564ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA8BE3137555145D2DD3BAB2B47417D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5013620A7162A5C7CFF94512DF9CF854 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27E8758D7351159986F2B39698041D7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				599A2AF9BA4C65EA817F121B632F2728 /* Pods-AdvancedNotifications */,
+				508519179AB6FC0836D71EF92D369D3C /* Pods-AdvancedNotificationsTests */,
+				C8883D9D2CA3A6FB0C4352FE5D8A104A /* Pods-AdvancedNotificationsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44AD05AA502BB5AFB4899D3454FED3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8898EC00DA5380A95253F7B7224235 /* DYOperationKit.framework */,
+				321BD92087F194C1F184E8EF3B6FEE52 /* Pods_AdvancedNotifications.framework */,
+				1804B9C08C21009D5FA11ECB8FBB36C4 /* Pods_AdvancedNotificationsTests.framework */,
+				98C2AD0E977F0F7E98BA6327EEFBC2D4 /* Pods_AdvancedNotificationsUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5013620A7162A5C7CFF94512DF9CF854 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */,
+				B8436533CEC029288113A22556AA9D09 /* MapKit.framework */,
+				58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		508519179AB6FC0836D71EF92D369D3C /* Pods-AdvancedNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA648DDF8D559309F21D28BE7AE5CE2D /* Info.plist */,
+				FDB44664C80509CBE49C66A55CB2F687 /* Pods-AdvancedNotificationsTests.modulemap */,
+				2671086E36C44045A52B05353D37E3D7 /* Pods-AdvancedNotificationsTests-acknowledgements.markdown */,
+				BE7B5FCD337A852168545B079FCFDA86 /* Pods-AdvancedNotificationsTests-acknowledgements.plist */,
+				A8F92193350A8A17248488FA8905AC75 /* Pods-AdvancedNotificationsTests-dummy.m */,
+				CA9DB701F9E63F4BB7FDCD12C5E3D649 /* Pods-AdvancedNotificationsTests-frameworks.sh */,
+				CBCB93254CC584DC00E6B0A05A4F976D /* Pods-AdvancedNotificationsTests-resources.sh */,
+				A62F3D04089176FC66D445CAA8D18BAD /* Pods-AdvancedNotificationsTests-umbrella.h */,
+				87FCC7D4D99CC86E96AE832DD50E57EC /* Pods-AdvancedNotificationsTests.debug.xcconfig */,
+				DCDC94B4704392418AFA887D8522CFF9 /* Pods-AdvancedNotificationsTests.release.xcconfig */,
+			);
+			name = "Pods-AdvancedNotificationsTests";
+			path = "Target Support Files/Pods-AdvancedNotificationsTests";
+			sourceTree = "<group>";
+		};
+		599A2AF9BA4C65EA817F121B632F2728 /* Pods-AdvancedNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE1736438BD2A1CE1557D3C57ED631 /* Info.plist */,
+				02ED262F48FA5D8F90AA43BAA53E92B8 /* Pods-AdvancedNotifications.modulemap */,
+				01E8282E853F115F29F4527B3128042D /* Pods-AdvancedNotifications-acknowledgements.markdown */,
+				8EECCFF01F22025C2C950F26383653DB /* Pods-AdvancedNotifications-acknowledgements.plist */,
+				95815B014216E837DA0C7CF34F6E02D7 /* Pods-AdvancedNotifications-dummy.m */,
+				F73839661DAF3A63FF0B46FB63E8C6B1 /* Pods-AdvancedNotifications-frameworks.sh */,
+				6A77C6A1948F25956A9972ABBBF554A6 /* Pods-AdvancedNotifications-resources.sh */,
+				D0903A477232200D518B216F019E5E4E /* Pods-AdvancedNotifications-umbrella.h */,
+				68E52E923AE27FFFDD443BB0D3A8D4AC /* Pods-AdvancedNotifications.debug.xcconfig */,
+				D4C575F385BC2E0B10981F5EFC0B0BE3 /* Pods-AdvancedNotifications.release.xcconfig */,
+			);
+			name = "Pods-AdvancedNotifications";
+			path = "Target Support Files/Pods-AdvancedNotifications";
+			sourceTree = "<group>";
+		};
+		6D8EA466E2E420B6D53C45B8E8F5C7E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CADAC16544C8248C3A5485100B3E2E3A /* DYOperationKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				6D8EA466E2E420B6D53C45B8E8F5C7E9 /* Pods */,
+				44AD05AA502BB5AFB4899D3454FED3F0 /* Products */,
+				27E8758D7351159986F2B39698041D7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC2E92CC59BBAA2B03C36BBDCD6D88F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFF0F0401206B06D9C00608769D2423A /* DYOperationKit.modulemap */,
+				009758896F188F80080A71B4AF08FBA5 /* DYOperationKit.xcconfig */,
+				CA1EA54CC53A3E1B1342570A925DCC74 /* DYOperationKit-dummy.m */,
+				4A9E810634704363F65F7664665C8436 /* DYOperationKit-prefix.pch */,
+				6961E67A9910329C15166B135C0335E2 /* DYOperationKit-umbrella.h */,
+				D8D424CE946559090670C8C2992A7FD6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DYOperationKit";
+			sourceTree = "<group>";
+		};
+		C8883D9D2CA3A6FB0C4352FE5D8A104A /* Pods-AdvancedNotificationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				838EECE36ED6B08207B122BD821036D7 /* Info.plist */,
+				B8714D5BD39DB464370F2065D1677D04 /* Pods-AdvancedNotificationsUITests.modulemap */,
+				22BA42BAA3E17813AC47FF2372845537 /* Pods-AdvancedNotificationsUITests-acknowledgements.markdown */,
+				91C6F2828E81CC64E3A45F1FE451A2AD /* Pods-AdvancedNotificationsUITests-acknowledgements.plist */,
+				508BF04C8259EC45249FE5059E826E53 /* Pods-AdvancedNotificationsUITests-dummy.m */,
+				6C57F52222FEBA756D3354A40308B10A /* Pods-AdvancedNotificationsUITests-frameworks.sh */,
+				36DF597A19B917DFF4B5F893BC75C961 /* Pods-AdvancedNotificationsUITests-resources.sh */,
+				0F89C73838CF9450805B86BB5362D12C /* Pods-AdvancedNotificationsUITests-umbrella.h */,
+				934B110D551875001BC47C74EC6E102B /* Pods-AdvancedNotificationsUITests.debug.xcconfig */,
+				84E78B222F8A098F021E3F818DFA52B1 /* Pods-AdvancedNotificationsUITests.release.xcconfig */,
+			);
+			name = "Pods-AdvancedNotificationsUITests";
+			path = "Target Support Files/Pods-AdvancedNotificationsUITests";
+			sourceTree = "<group>";
+		};
+		CADAC16544C8248C3A5485100B3E2E3A /* DYOperationKit */ = {
+			isa = PBXGroup;
+			children = (
+				34565CEC7F4E47FB5CBD6D5CB56DEA7C /* DownloadImageRessourceOperation.swift */,
+				BD78A7A0B06749C9EBDB97463C13857A /* DownloadURLRessourceOperation.swift */,
+				E5D09F212922C000590F476C5FED022E /* DYGroupOperation.swift */,
+				516499DFF39715BDA58D606AC4D61BE5 /* DYOperation.swift */,
+				269E19467A642579F25386B17E7B39B7 /* DYOperationResponse.swift */,
+				045C10C76D69BBB717A1217F82DAC8D1 /* ImageCacheRessourceOperation.swift */,
+				CCCB7C9A7A0C86C0A6BDD22553CD9F93 /* SaveImageCacheRessource.swift */,
+				AEC2E92CC59BBAA2B03C36BBDCD6D88F /* Support Files */,
+			);
+			name = DYOperationKit;
+			path = DYOperationKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A2F47B8A2EA3B827FA28A2F60A6BF210 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D248FA23F5B83187F08E9F3419F698A /* Pods-AdvancedNotificationsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F5D878676803196DAF99AACDCBB792 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0861BEBF85279294801F41971AD871CE /* Pods-AdvancedNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9504A99B381E5E26FC1BD59D0F75D9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C30D6DE2C2E8EE3C192175205EB9C5 /* DYOperationKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FE61374AB21C538ABBA6C4C5594C6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85FC56C02D55C450F856C4139409E85 /* Pods-AdvancedNotificationsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		558AB281EAC86E8DEEBE9512CC1F92F0 /* Pods-AdvancedNotificationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4FEA1C62762012FF4CC17614A41B5AA /* Build configuration list for PBXNativeTarget "Pods-AdvancedNotificationsUITests" */;
+			buildPhases = (
+				74F3DFE9253371ABF768A65B884C989E /* Sources */,
+				C09140743B0C3EA75FBAEB65E31A1B6A /* Frameworks */,
+				A2F47B8A2EA3B827FA28A2F60A6BF210 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AdvancedNotificationsUITests";
+			productName = "Pods-AdvancedNotificationsUITests";
+			productReference = 98C2AD0E977F0F7E98BA6327EEFBC2D4 /* Pods_AdvancedNotificationsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73316268412B7C2B2AB9F20F6E728FE8 /* DYOperationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62F3792A4725C8DE73A13A2171E531C /* Build configuration list for PBXNativeTarget "DYOperationKit" */;
+			buildPhases = (
+				B44873070897332D76014A39980525BB /* Sources */,
+				67C7310683E6A82B815EEC38729B291E /* Frameworks */,
+				C9504A99B381E5E26FC1BD59D0F75D9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYOperationKit;
+			productName = DYOperationKit;
+			productReference = 9B8898EC00DA5380A95253F7B7224235 /* DYOperationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6BCA749856F82CE80AA0F86DFBE8695 /* Pods-AdvancedNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DDE305782208E272FDEDAC6003A2C2 /* Build configuration list for PBXNativeTarget "Pods-AdvancedNotificationsTests" */;
+			buildPhases = (
+				7A934B7E21F65D21E46720062E418B26 /* Sources */,
+				9E7AA44B52C4365972A2ED37EABF332A /* Frameworks */,
+				E1FE61374AB21C538ABBA6C4C5594C6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AdvancedNotificationsTests";
+			productName = "Pods-AdvancedNotificationsTests";
+			productReference = 1804B9C08C21009D5FA11ECB8FBB36C4 /* Pods_AdvancedNotificationsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9BF549A50F5B6CEA5C586746D6BD6D0 /* Pods-AdvancedNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5435CBEF7A290D7574F6D2BA8733CFE4 /* Build configuration list for PBXNativeTarget "Pods-AdvancedNotifications" */;
+			buildPhases = (
+				A03574F0BE3BC50245033A1DBD95CC3E /* Sources */,
+				DF3EBD1B1F328B9C78C59B9257564ACB /* Frameworks */,
+				C2F5D878676803196DAF99AACDCBB792 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11C8D6DD28FE6DFD801FB65CFE1AF203 /* PBXTargetDependency */,
+			);
+			name = "Pods-AdvancedNotifications";
+			productName = "Pods-AdvancedNotifications";
+			productReference = 321BD92087F194C1F184E8EF3B6FEE52 /* Pods_AdvancedNotifications.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 44AD05AA502BB5AFB4899D3454FED3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73316268412B7C2B2AB9F20F6E728FE8 /* DYOperationKit */,
+				B9BF549A50F5B6CEA5C586746D6BD6D0 /* Pods-AdvancedNotifications */,
+				B6BCA749856F82CE80AA0F86DFBE8695 /* Pods-AdvancedNotificationsTests */,
+				558AB281EAC86E8DEEBE9512CC1F92F0 /* Pods-AdvancedNotificationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F3DFE9253371ABF768A65B884C989E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C50350D068418F31B7B1529C6BEF064 /* Pods-AdvancedNotificationsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A934B7E21F65D21E46720062E418B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355367A5F5D89A8A9E2186010DB146A4 /* Pods-AdvancedNotificationsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03574F0BE3BC50245033A1DBD95CC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5392E4AEEDBDE4966CF7A764AC1C1505 /* Pods-AdvancedNotifications-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44873070897332D76014A39980525BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860929EC32E2831822B81260B06FBA41 /* DownloadImageRessourceOperation.swift in Sources */,
+				D67FF4308B7962A040DF950101490A72 /* DownloadURLRessourceOperation.swift in Sources */,
+				513ED1D15F7F544D194EE1B5C88566DE /* DYGroupOperation.swift in Sources */,
+				0C5348EC1C02628D1787BE97B1EDFF61 /* DYOperation.swift in Sources */,
+				2E1DB75EA2B121F0D31262EE45A062FA /* DYOperationKit-dummy.m in Sources */,
+				E8CAE7BCA8F5D14F25D11652C8EA2B1F /* DYOperationResponse.swift in Sources */,
+				D08284F2E56521334E499EDBAA623FB5 /* ImageCacheRessourceOperation.swift in Sources */,
+				4F04DA618EE3B480B43C942861F1DC63 /* SaveImageCacheRessource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11C8D6DD28FE6DFD801FB65CFE1AF203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DYOperationKit;
+			target = 73316268412B7C2B2AB9F20F6E728FE8 /* DYOperationKit */;
+			targetProxy = 7C2FA6BA016CB2D85CBBAD58235B65EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4239B747B217D1D83163230C4C71E61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E52E923AE27FFFDD443BB0D3A8D4AC /* Pods-AdvancedNotifications.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdvancedNotifications/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdvancedNotifications/Pods-AdvancedNotifications.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdvancedNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5607BA4FA17514C8FF61B61E99362A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009758896F188F80080A71B4AF08FBA5 /* DYOperationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DYOperationKit/DYOperationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DYOperationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DYOperationKit/DYOperationKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DYOperationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EBBA0B907735393BE068528EDD47975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934B110D551875001BC47C74EC6E102B /* Pods-AdvancedNotificationsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdvancedNotificationsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdvancedNotificationsUITests/Pods-AdvancedNotificationsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdvancedNotificationsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98355B916BB752E500A4E71C0558ED97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FCC7D4D99CC86E96AE832DD50E57EC /* Pods-AdvancedNotificationsTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdvancedNotificationsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdvancedNotificationsTests/Pods-AdvancedNotificationsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdvancedNotificationsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5C2E7121221318AF13CAD8DADBE701F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009758896F188F80080A71B4AF08FBA5 /* DYOperationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DYOperationKit/DYOperationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DYOperationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DYOperationKit/DYOperationKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DYOperationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B17E73E2AAFC8D540C7BC19CB7A8C8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E78B222F8A098F021E3F818DFA52B1 /* Pods-AdvancedNotificationsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdvancedNotificationsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdvancedNotificationsUITests/Pods-AdvancedNotificationsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdvancedNotificationsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3EEC5422E826CAAC35C3EB435AD2D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C575F385BC2E0B10981F5EFC0B0BE3 /* Pods-AdvancedNotifications.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdvancedNotifications/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdvancedNotifications/Pods-AdvancedNotifications.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdvancedNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8C172D8F83CC9D1053F30BA4476B936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDC94B4704392418AFA887D8522CFF9 /* Pods-AdvancedNotificationsTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdvancedNotificationsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdvancedNotificationsTests/Pods-AdvancedNotificationsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdvancedNotificationsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5435CBEF7A290D7574F6D2BA8733CFE4 /* Build configuration list for PBXNativeTarget "Pods-AdvancedNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4239B747B217D1D83163230C4C71E61B /* Debug */,
+				C3EEC5422E826CAAC35C3EB435AD2D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62F3792A4725C8DE73A13A2171E531C /* Build configuration list for PBXNativeTarget "DYOperationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5607BA4FA17514C8FF61B61E99362A95 /* Debug */,
+				A5C2E7121221318AF13CAD8DADBE701F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DDE305782208E272FDEDAC6003A2C2 /* Build configuration list for PBXNativeTarget "Pods-AdvancedNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98355B916BB752E500A4E71C0558ED97 /* Debug */,
+				E8C172D8F83CC9D1053F30BA4476B936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4FEA1C62762012FF4CC17614A41B5AA /* Build configuration list for PBXNativeTarget "Pods-AdvancedNotificationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBBA0B907735393BE068528EDD47975 /* Debug */,
+				B17E73E2AAFC8D540C7BC19CB7A8C8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

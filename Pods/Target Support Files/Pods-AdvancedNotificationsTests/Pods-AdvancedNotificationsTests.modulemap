@@ -1,0 +1,6 @@
+framework module Pods_AdvancedNotificationsTests {
+  umbrella header "Pods-AdvancedNotificationsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
