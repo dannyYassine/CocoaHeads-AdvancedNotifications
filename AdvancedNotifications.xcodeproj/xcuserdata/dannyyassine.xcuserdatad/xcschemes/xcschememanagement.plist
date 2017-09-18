@@ -7,22 +7,52 @@
 		<key>ANNotificationContent.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>7</integer>
 		</dict>
 		<key>ANNotificationService.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 		<key>AdvancedNotifications.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>AdvancedNotificationsTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>AdvancedNotificationsUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B5B7B88F1F6EA9E100DBCC7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B7B8A61F6EA9E100DBCC7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B7B8B11F6EA9E100DBCC7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B7B9031F6EB2A500DBCC7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B7B9121F6EB2BB00DBCC7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

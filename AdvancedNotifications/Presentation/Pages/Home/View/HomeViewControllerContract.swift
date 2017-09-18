@@ -13,5 +13,5 @@ protocol HomeViewControllerInput {
 }
 
 protocol HomeViewControllerOutput {
-    
+    func didSelectAction(atIndexPath indexPath: IndexPath)
 }

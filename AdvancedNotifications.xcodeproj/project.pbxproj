@@ -25,6 +25,15 @@
 		B5B7B9181F6EB2BB00DBCC7C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B9171F6EB2BB00DBCC7C /* NotificationViewController.swift */; };
 		B5B7B91B1F6EB2BB00DBCC7C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B7B9191F6EB2BB00DBCC7C /* MainInterface.storyboard */; };
 		B5B7B91F1F6EB2BB00DBCC7C /* ANNotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5B7B9131F6EB2BB00DBCC7C /* ANNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5B7B9271F6F11C900DBCC7C /* NotificationAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B9261F6F11C900DBCC7C /* NotificationAppService.swift */; };
+		B5B7B9291F6F1B7800DBCC7C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B9281F6F1B7800DBCC7C /* HomePresenter.swift */; };
+		B5B7B92B1F6F1BC300DBCC7C /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B92A1F6F1BC300DBCC7C /* HomeFactory.swift */; };
+		B5B7B92F1F6F1DEA00DBCC7C /* RootFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B92E1F6F1DEA00DBCC7C /* RootFactory.swift */; };
+		B5B7B9321F6F1E0B00DBCC7C /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B9311F6F1E0B00DBCC7C /* Contracts.swift */; };
+		B5B7B9351F6F1E7D00DBCC7C /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B9341F6F1E7D00DBCC7C /* RootTabBarController.swift */; };
+		B5B7B93A1F6F20C700DBCC7C /* SendLocalNotificationContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B9391F6F20C700DBCC7C /* SendLocalNotificationContract.swift */; };
+		B5B7B93C1F6F20D400DBCC7C /* SendLocalNotificationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B93B1F6F20D400DBCC7C /* SendLocalNotificationInteractor.swift */; };
+		B5B7B9401F6F23E900DBCC7C /* LocalNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7B93F1F6F23E900DBCC7C /* LocalNotificationService.swift */; };
 		C153507C209A00537E43E018 /* Pods_AdvancedNotificationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C8DE96F8436E267506A91 /* Pods_AdvancedNotificationsTests.framework */; };
 		D563974B8AEEFAD4F2236A0B /* Pods_AdvancedNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FEB2A4D8B2270C32F24097 /* Pods_AdvancedNotifications.framework */; };
 /* End PBXBuildFile section */
@@ -79,6 +88,9 @@
 		23966E47CC8CA62FAAE663A2 /* Pods-AdvancedNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedNotifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedNotifications/Pods-AdvancedNotifications.release.xcconfig"; sourceTree = "<group>"; };
 		3B34226D1C98D76C6129F79D /* Pods-AdvancedNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedNotifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedNotifications/Pods-AdvancedNotifications.debug.xcconfig"; sourceTree = "<group>"; };
 		4F7C8DE96F8436E267506A91 /* Pods_AdvancedNotificationsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvancedNotificationsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51F01FE1F6F445F0038A05C /* trees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trees.png; sourceTree = "<group>"; };
+		B51F01FF1F6F44FC0038A05C /* the_wire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = the_wire.mp3; sourceTree = "<group>"; };
+		B51F02001F6F483C0038A05C /* AdvancedNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdvancedNotifications.entitlements; sourceTree = "<group>"; };
 		B5B7B8901F6EA9E100DBCC7C /* AdvancedNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B7B8931F6EA9E100DBCC7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B7B89B1F6EA9E100DBCC7C /* AdvancedNotifications.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdvancedNotifications.xcdatamodel; sourceTree = "<group>"; };
@@ -109,6 +121,15 @@
 		B5B7B9171F6EB2BB00DBCC7C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		B5B7B91A1F6EB2BB00DBCC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		B5B7B91C1F6EB2BB00DBCC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B7B9261F6F11C900DBCC7C /* NotificationAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAppService.swift; sourceTree = "<group>"; };
+		B5B7B9281F6F1B7800DBCC7C /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		B5B7B92A1F6F1BC300DBCC7C /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		B5B7B92E1F6F1DEA00DBCC7C /* RootFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFactory.swift; sourceTree = "<group>"; };
+		B5B7B9311F6F1E0B00DBCC7C /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
+		B5B7B9341F6F1E7D00DBCC7C /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		B5B7B9391F6F20C700DBCC7C /* SendLocalNotificationContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendLocalNotificationContract.swift; sourceTree = "<group>"; };
+		B5B7B93B1F6F20D400DBCC7C /* SendLocalNotificationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendLocalNotificationInteractor.swift; sourceTree = "<group>"; };
+		B5B7B93F1F6F23E900DBCC7C /* LocalNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationService.swift; sourceTree = "<group>"; };
 		BC26EE9197FBD9A54BDFAFAC /* Pods_AdvancedNotificationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvancedNotificationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC709C50CF6329B4D35AC4A1 /* Pods-AdvancedNotificationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedNotificationsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedNotificationsUITests/Pods-AdvancedNotificationsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C1FEB2A4D8B2270C32F24097 /* Pods_AdvancedNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvancedNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +238,7 @@
 		B5B7B8921F6EA9E100DBCC7C /* AdvancedNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				B51F02001F6F483C0038A05C /* AdvancedNotifications.entitlements */,
 				B5B7B8C41F6EAC3D00DBCC7C /* App */,
 				B5B7B8C51F6EAC4700DBCC7C /* Domain */,
 				B5B7B8C61F6EAC5400DBCC7C /* Presentation */,
@@ -256,6 +278,8 @@
 		B5B7B8C51F6EAC4700DBCC7C /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				B5B7B9371F6F1FE600DBCC7C /* Model */,
+				B5B7B9361F6F1FDF00DBCC7C /* UseCases */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -263,6 +287,7 @@
 		B5B7B8C61F6EAC5400DBCC7C /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				B5B7B9301F6F1DFC00DBCC7C /* Factory */,
 				B5B7B8CC1F6EAD9400DBCC7C /* Pages */,
 			);
 			path = Presentation;
@@ -271,6 +296,8 @@
 		B5B7B8C71F6EAC5A00DBCC7C /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				B5B7B93D1F6F23CD00DBCC7C /* Services */,
+				B5B7B9251F6F104A00DBCC7C /* CoreData */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -278,10 +305,12 @@
 		B5B7B8C81F6EAC7200DBCC7C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B51F01FF1F6F44FC0038A05C /* the_wire.mp3 */,
+				B51F01FE1F6F445F0038A05C /* trees.png */,
+				B5B7B9241F6F103B00DBCC7C /* CoreData */,
 				B5B7B89D1F6EA9E100DBCC7C /* Assets.xcassets */,
 				B5B7B89F1F6EA9E100DBCC7C /* LaunchScreen.storyboard */,
 				B5B7B8A21F6EA9E100DBCC7C /* Info.plist */,
-				B5B7B89A1F6EA9E100DBCC7C /* AdvancedNotifications.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -290,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				B5B7B8CA1F6EACC100DBCC7C /* LaunchService.swift */,
+				B5B7B9261F6F11C900DBCC7C /* NotificationAppService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -297,6 +327,7 @@
 		B5B7B8CC1F6EAD9400DBCC7C /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				B5B7B92C1F6F1DD000DBCC7C /* Root */,
 				B5B7B8CD1F6EAD9900DBCC7C /* Home */,
 			);
 			path = Pages;
@@ -323,6 +354,7 @@
 		B5B7B8CF1F6EADCB00DBCC7C /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				B5B7B92A1F6F1BC300DBCC7C /* HomeFactory.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -330,6 +362,7 @@
 		B5B7B8D01F6EADCB00DBCC7C /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				B5B7B9281F6F1B7800DBCC7C /* HomePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -388,6 +421,94 @@
 				B5B7B8D21F6EADE800DBCC7C /* HomeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5B7B9241F6F103B00DBCC7C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B89A1F6EA9E100DBCC7C /* AdvancedNotifications.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B5B7B9251F6F104A00DBCC7C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B5B7B92C1F6F1DD000DBCC7C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B9331F6F1E6E00DBCC7C /* View */,
+				B5B7B92D1F6F1DE100DBCC7C /* Factory */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		B5B7B92D1F6F1DE100DBCC7C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B92E1F6F1DEA00DBCC7C /* RootFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		B5B7B9301F6F1DFC00DBCC7C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B9311F6F1E0B00DBCC7C /* Contracts.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		B5B7B9331F6F1E6E00DBCC7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B9341F6F1E7D00DBCC7C /* RootTabBarController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5B7B9361F6F1FDF00DBCC7C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B9381F6F20B600DBCC7C /* SendLocalNotification */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B5B7B9371F6F1FE600DBCC7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5B7B9381F6F20B600DBCC7C /* SendLocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B9391F6F20C700DBCC7C /* SendLocalNotificationContract.swift */,
+				B5B7B93B1F6F20D400DBCC7C /* SendLocalNotificationInteractor.swift */,
+			);
+			path = SendLocalNotification;
+			sourceTree = "<group>";
+		};
+		B5B7B93D1F6F23CD00DBCC7C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B93E1F6F23D200DBCC7C /* Notification */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B5B7B93E1F6F23D200DBCC7C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B5B7B93F1F6F23E900DBCC7C /* LocalNotificationService.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +626,14 @@
 					B5B7B88F1F6EA9E100DBCC7C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					B5B7B8A61F6EA9E100DBCC7C = {
 						CreatedOnToolsVersion = 9.0;
@@ -745,11 +874,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B7B8941F6EA9E100DBCC7C /* AppDelegate.swift in Sources */,
+				B5B7B9351F6F1E7D00DBCC7C /* RootTabBarController.swift in Sources */,
+				B5B7B92B1F6F1BC300DBCC7C /* HomeFactory.swift in Sources */,
+				B5B7B9271F6F11C900DBCC7C /* NotificationAppService.swift in Sources */,
 				B5B7B89C1F6EA9E100DBCC7C /* AdvancedNotifications.xcdatamodeld in Sources */,
 				B5B7B8CB1F6EACC100DBCC7C /* LaunchService.swift in Sources */,
 				B5B7B8D91F6EB03D00DBCC7C /* HomeView.swift in Sources */,
+				B5B7B93A1F6F20C700DBCC7C /* SendLocalNotificationContract.swift in Sources */,
+				B5B7B92F1F6F1DEA00DBCC7C /* RootFactory.swift in Sources */,
 				B5B7B8D51F6EAE1200DBCC7C /* HomeViewControllerContract.swift in Sources */,
+				B5B7B9291F6F1B7800DBCC7C /* HomePresenter.swift in Sources */,
+				B5B7B9321F6F1E0B00DBCC7C /* Contracts.swift in Sources */,
 				B5B7B8D31F6EADE800DBCC7C /* HomeViewController.swift in Sources */,
+				B5B7B9401F6F23E900DBCC7C /* LocalNotificationService.swift in Sources */,
+				B5B7B93C1F6F20D400DBCC7C /* SendLocalNotificationInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -951,6 +1089,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdvancedNotifications/AdvancedNotifications.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5653SU33H;
 				INFOPLIST_FILE = "$(SRCROOT)/AdvancedNotifications/App/Resources/Info.plist";
@@ -968,6 +1107,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdvancedNotifications/AdvancedNotifications.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5653SU33H;
 				INFOPLIST_FILE = "$(SRCROOT)/AdvancedNotifications/App/Resources/Info.plist";
