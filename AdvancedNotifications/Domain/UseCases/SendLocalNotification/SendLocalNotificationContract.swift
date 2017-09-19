@@ -9,13 +9,14 @@
 import Foundation
 
 enum NotificationMediaType: Int {
-    case image, video, gif, audio
+    case image, video, gif, audio, custom
 }
 
 class LocalNotificationRequest {
     var title: String?
     var message: String?
     var type: NotificationMediaType = .image
+    var category: String?
 }
 
 protocol SendLocalNotificationInput {

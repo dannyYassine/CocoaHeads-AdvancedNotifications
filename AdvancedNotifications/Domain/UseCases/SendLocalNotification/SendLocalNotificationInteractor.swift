@@ -32,12 +32,14 @@ extension SendLocalNotificationInteractor: SendLocalNotificationInput {
         case .audio:
             path = Bundle.main.path(forResource: "the_wire", ofType: "mp3")
         case .gif:
-            path = Bundle.main.path(forResource: "the_wire", ofType: "mp3")
+            path = Bundle.main.path(forResource: "bee_with_fly", ofType: "gif")
         case .video:
-            path = Bundle.main.path(forResource: "the_wire", ofType: "mp3")
+            path = Bundle.main.path(forResource: "big_buck_bunny", ofType: "mp4")
+        case .custom:
+            path = nil
         }
         
-        let notificationRequest = NotificationRequest(body:  dateFormatter.string(from: Date()), title: title, message: message, triggerDate: triggerDate, ressourcePath: path, category: .none)
+        let notificationRequest = NotificationRequest(body:  dateFormatter.string(from: Date()), title: title, message: message, triggerDate: triggerDate, ressourcePath: path, category: .dummy)
         
         notificationService?.sendNotification(withRequest: notificationRequest, completion: { (succeeded) in
             completion?(succeeded)

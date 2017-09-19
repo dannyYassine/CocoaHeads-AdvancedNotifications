@@ -13,22 +13,22 @@ enum NotificationCategory: RawRepresentable {
     typealias RawValue = String
     init?(rawValue: String) {
         switch rawValue {
-        case "reply":
-            self = .reply
+        case "category_dummy":
+            self = .dummy
         default:
             self = .none
         }
     }
     var rawValue: String {
         switch self {
-        case .reply:
-            return "reply"
+        case .dummy:
+            return "category_dummy"
         case .none:
             return ""
         }
     }
     
-    case reply, none
+    case dummy, none
 }
 
 struct NotificationRequest {

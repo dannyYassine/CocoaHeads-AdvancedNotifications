@@ -24,12 +24,17 @@ extension HomePresenter: HomeViewControllerOutput {
             localNotificationRequest.title = "Image"
         case 1:
             localNotificationRequest.title = "Video"
+            localNotificationRequest.type = .video
         case 2:
             localNotificationRequest.title = "Audio"
+            localNotificationRequest.type = .audio
         case 3:
             localNotificationRequest.title = "Gif"
+            localNotificationRequest.type = .gif
         case 4:
             localNotificationRequest.title = "Custom View"
+            localNotificationRequest.type = .custom
+            localNotificationRequest.category = "category_dummy"
         case 5:
             localNotificationRequest.title = "Custom View 2"
         case 6:

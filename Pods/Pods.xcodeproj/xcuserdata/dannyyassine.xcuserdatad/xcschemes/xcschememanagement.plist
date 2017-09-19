@@ -8,29 +8,31 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
+		</dict>
+		<key>FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ANNotificationContent.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-AdvancedNotifications.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>Pods-AdvancedNotificationsTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-AdvancedNotificationsUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -40,7 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>64BD50F4CFB5D9805D19DEBC996773FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>73316268412B7C2B2AB9F20F6E728FE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83B5B60C676A8D31829A6AE91CE86A75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -50,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B9BF549A50F5B6CEA5C586746D6BD6D0</key>
+		<key>D188491E987E5C9C637B9B07B49C876A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

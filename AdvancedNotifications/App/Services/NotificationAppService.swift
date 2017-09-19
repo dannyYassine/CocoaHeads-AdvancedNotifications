@@ -35,13 +35,16 @@ class NotificationAppService: NSObject {
             let replyCategory = UNNotificationCategory(identifier: "REPLY_CATEGORY", actions: [replyAction, sendLikeAction], intentIdentifiers: [replyAction.identifier], options: UNNotificationCategoryOptions.customDismissAction)
             let sendAction = UNNotificationCategory(identifier: "SEND_CATEGORY", actions: [sendLikeAction], intentIdentifiers: [sendLikeAction.identifier], options: UNNotificationCategoryOptions.customDismissAction)
             let foregroundCategory = UNNotificationCategory(identifier: "FOREGROUND_CATEGORY", actions: [foregroundAction], intentIdentifiers: [foregroundAction.identifier], options: UNNotificationCategoryOptions.customDismissAction)
-            let notificationCategory = UNNotificationCategory(identifier: "myNotificationCategory", actions: [showAction, hideAction, animateAction, colorAction, spingAction, textAction], intentIdentifiers: [showAction.identifier, hideAction.identifier, animateAction.identifier, colorAction.identifier, spingAction.identifier, textAction.identifier], options: .customDismissAction)
+            let notificationCategory = UNNotificationCategory(identifier: "category_dummy", actions: [showAction, hideAction, animateAction, colorAction, spingAction, textAction], intentIdentifiers: [showAction.identifier, hideAction.identifier, animateAction.identifier, colorAction.identifier, spingAction.identifier, textAction.identifier], options: .customDismissAction)
             let chartCategory = UNNotificationCategory(identifier: "chartCategory", actions: [], intentIdentifiers: [], options: .customDismissAction)
             
             let demoCategory = UNNotificationCategory(identifier: "demoCategory", actions: [showAction, hideAction, animateAction, respondAction], intentIdentifiers: [showAction.identifier, hideAction.identifier, animateAction.identifier, respondAction.identifier], options: .customDismissAction)
             
+            let action = UNNotificationAction(identifier: "ACTION_VIEW", title: "View", options: .foreground)
+            let categoryDetailShotView = UNNotificationCategory(identifier: "category_detail_shot_view", actions: [action], intentIdentifiers: [action.identifier], options: .customDismissAction)
+            
             UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: { (isAuthorized, error) in
-                UNUserNotificationCenter.current().setNotificationCategories([replyCategory, sendAction, foregroundCategory, notificationCategory, chartCategory, demoCategory])
+                UNUserNotificationCenter.current().setNotificationCategories([replyCategory, sendAction, foregroundCategory, notificationCategory, chartCategory, demoCategory, categoryDetailShotView])
             })
         }
     }

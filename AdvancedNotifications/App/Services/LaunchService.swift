@@ -23,7 +23,7 @@ class LaunchService: NSObject {
     
     //MARK: - Instance Methods
     
-    private func handleRemoteNotificationLaunch(withUserInfo userInfo: [AnyHashable: Any]) {
+    func handleRemoteNotificationLaunch(withUserInfo userInfo: [AnyHashable: Any]) {
         
     }
 }

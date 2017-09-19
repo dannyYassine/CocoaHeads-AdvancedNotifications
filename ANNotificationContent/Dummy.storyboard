@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="e0H-wZ-3c7">
+            <objects>
+                <viewController storyboardIdentifier="Dummy" id="y8r-Hb-UOG" userLabel="Notification View Controller" customClass="DummyNotificationViewController" customModule="ANNotificationContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SEb-NA-0xO"/>
+                        <viewControllerLayoutGuide type="bottom" id="x4Y-Lg-OqQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="lDg-MO-N8c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKY-CK-CZ5">
+                                <rect key="frame" x="20" y="40" width="284" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDg-OM-6cC">
+                                <rect key="frame" x="20" y="68.5" width="284" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ne-Rh-oQ5">
+                                <rect key="frame" x="16" y="97" width="64" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="Isz-j2-xUs"/>
+                                    <constraint firstAttribute="height" constant="64" id="OOo-d4-Z6B"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5M6-Dy-b04">
+                                <rect key="frame" x="16" y="169" width="64" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="O7f-TG-n4U"/>
+                                    <constraint firstAttribute="height" constant="64" id="w2A-L2-HnK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45882353190000003" green="0.74901962280000001" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5M6-Dy-b04" firstAttribute="top" secondItem="3ne-Rh-oQ5" secondAttribute="bottom" constant="8" id="AUS-hA-2D6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bDg-OM-6cC" secondAttribute="trailing" id="FGc-S9-qKn"/>
+                            <constraint firstItem="IKY-CK-CZ5" firstAttribute="top" secondItem="SEb-NA-0xO" secondAttribute="bottom" constant="20" id="Gxh-Xc-gnf"/>
+                            <constraint firstItem="IKY-CK-CZ5" firstAttribute="leading" secondItem="lDg-MO-N8c" secondAttribute="leadingMargin" constant="4" id="Shs-yc-xaZ"/>
+                            <constraint firstItem="bDg-OM-6cC" firstAttribute="leading" secondItem="lDg-MO-N8c" secondAttribute="leadingMargin" constant="4" id="V23-2o-fdy"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="5M6-Dy-b04" secondAttribute="leading" id="bwy-Bn-Emc"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="3ne-Rh-oQ5" secondAttribute="leading" id="kbT-D9-GC4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IKY-CK-CZ5" secondAttribute="trailing" id="r3n-a8-mjZ"/>
+                            <constraint firstItem="3ne-Rh-oQ5" firstAttribute="top" secondItem="bDg-OM-6cC" secondAttribute="bottom" constant="8" id="tn1-84-02r"/>
+                            <constraint firstItem="bDg-OM-6cC" firstAttribute="top" secondItem="IKY-CK-CZ5" secondAttribute="bottom" constant="8" id="wrr-nQ-TaY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bjM-WK-rpq"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="250"/>
+                    <connections>
+                        <outlet property="firstConstraint" destination="kbT-D9-GC4" id="Wh1-hd-8ls"/>
+                        <outlet property="firstView" destination="3ne-Rh-oQ5" id="I3C-0A-EfB"/>
+                        <outlet property="secondConstraint" destination="bwy-Bn-Emc" id="R6d-YQ-nzY"/>
+                        <outlet property="secondView" destination="5M6-Dy-b04" id="kjb-RM-YdD"/>
+                        <outlet property="subTitleLabel" destination="bDg-OM-6cC" id="ls7-MO-X4o"/>
+                        <outlet property="titleLabel" destination="IKY-CK-CZ5" id="shg-n1-Sve"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f8Q-MV-EF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-214" y="231"/>
+        </scene>
+    </scenes>
+</document>
